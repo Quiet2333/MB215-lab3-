@@ -1,0 +1,19 @@
+# Ask user for numeric grade input
+nGrade = float(input("Enter your numeric grade: "))
+
+# Converting numeric grade into corresponding letter grade
+if nGrade >= 90:
+    lGrade = "A+"
+elif nGrade >= 80:
+    lGrade = "A"
+elif nGrade >= 70:
+    lGrade = "B"
+elif nGrade >= 60:
+    lGrade = "C"
+elif nGrade >= 50:
+    lGrade = "D"
+else:
+    lGrade = "F"
+
+# Output the letter grade
+print("Your letter grade is ", lGrade)
